@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "Website",
+  "behavior": "create",
+  "noteContentFormat": "",
+  "properties": [
+    {
+      "name": "categories",
+      "value": "[[Websites]]",
+      "type": "text"
+    },
+    {
+      "name": "created",
+      "value": "{{date}}",
+      "type": "date"
+    },
+    {
+      "name": "source",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "image",
+      "value": "{{meta:property:og:image}}",
+      "type": "text"
+    },
+    {
+      "name": "type",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "topics",
+      "value": "",
+      "type": "multitext"
+    },
+    {
+      "name": "description",
+      "value": "{{description}}",
+      "type": "text"
+    }
+  ],
+  "triggers": [],
+  "noteNameFormat": "{{title}}",
+  "path": "Websites"
+}

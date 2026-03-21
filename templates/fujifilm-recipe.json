@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "Fujifilm Recipe",
+  "behavior": "create",
+  "noteContentFormat": "{{\"Extract all Fujifilm camera settings from this recipe. Return as a bulleted list with these exact settings: Film Simulation, Monochromatic Color (Toning), Dynamic Range, Grain Effect, Color Chrome Effect, Color Chrome FX Blue, White Balance, Highlight, Shadow, Sharpness, High ISO NR, Clarity, ISO, and Exposure Compensation. Format each as Setting Name: Value\"}}",
+  "properties": [
+    {
+      "name": "categories",
+      "value": "[[Fujifilm Recipes]]",
+      "type": "text"
+    },
+    {
+      "name": "source",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "image",
+      "value": "{{image}}",
+      "type": "text"
+    },
+    {
+      "name": "author",
+      "value": "{{author}}",
+      "type": "multitext"
+    },
+    {
+      "name": "published",
+      "value": "{{meta:property:article:published_time|date:YYYY-MM-DD}}",
+      "type": "date"
+    },
+    {
+      "name": "film_simulation",
+      "value": "{{\\\"Extract Film Simulation. Only output the value\\\"}}",
+      "type": "text"
+    }
+  ],
+  "triggers": [
+    "https://fujixweekly.com/",
+    "fujifilmsimulations.com",
+    "film.recipes",
+    "film-simulations.com"
+  ],
+  "noteNameFormat": "{{title}}",
+  "path": "Fujifilm Recipes"
+}
