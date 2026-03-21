@@ -37,6 +37,6 @@ Using Interpreter, this template extracts a Fujifilm recipe from a page to build
 
 # Kudos
 
-- Credit to [@kepano](https://github.com/kepano/clipper-templates) for the original templates that helped jump start my own ideas.
+Credit to [@kepano](https://github.com/kepano/clipper-templates) for the original templates that helped jump start my own ideas.
 
 [^1]: Uses the [Interpreter](https://obsidian.md/help/web-clipper/interpreter) feature. I use LFM2.5 1.2B or Qwen3.5 4B, with an increased context window, through LM Studio.
