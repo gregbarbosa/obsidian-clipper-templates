@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "Place",
+  "behavior": "create",
+  "noteContentFormat": "{{content}}",
+  "properties": [
+    {
+      "name": "categories",
+      "value": "[[Places]]",
+      "type": "text"
+    },
+    {
+      "name": "type",
+      "value": "",
+      "type": "multitext"
+    },
+    {
+      "name": "loc",
+      "value": "",
+      "type": "multitext"
+    },
+    {
+      "name": "rating",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "created",
+      "value": "{{date}}",
+      "type": "date"
+    },
+    {
+      "name": "last",
+      "value": "{{date}}",
+      "type": "date"
+    },
+    {
+      "name": "source",
+      "value": "{{url}}",
+      "type": "text"
+    }
+  ],
+  "triggers": [],
+  "noteNameFormat": "{{title}}",
+  "path": ""
+}
