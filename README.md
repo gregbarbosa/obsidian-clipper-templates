@@ -32,6 +32,10 @@ Used as reference for companies I want to keep notes on. A barebones pseudo-CRM,
 
 My catch-all template for websites that continue to spark joy and inspire me.
 
+## Bookshop.org
+
+How I find and save future books to read.
+
 ## Fujifilm Recipe
 
 Using Interpreter, this template extracts a Fujifilm recipe from a page to build out your own recipes library. Add a reference image as the source to create a beautiful Fujifilm Recipe Base view.
