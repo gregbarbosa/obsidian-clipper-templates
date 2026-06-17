@@ -13,6 +13,7 @@ Generic templates
 
 Specific websites
 
+- [Bookshop.org](/templates/bookshop.org.json)
 - [Fujifilm Recipe](/templates/fujifilm-recipe.json) [^1]
 
 # Philosophy
