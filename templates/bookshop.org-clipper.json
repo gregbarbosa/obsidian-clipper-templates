@@ -1,0 +1,78 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Bookshop.org",
+	"behavior": "create",
+	"noteContentFormat": "{% if schema:@Book:description %}\n{{schema:@Book:description|markdown|callout:(\"summary\", \"Description\", true)}}\n{% endif %}",
+	"properties": [
+		{
+			"name": "categories",
+			"value": "[[Books]]",
+			"type": "multitext"
+		},
+		{
+			"name": "title",
+			"value": "{{meta:property:og:title}}",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{author}}",
+			"type": "multitext"
+		},
+		{
+			"name": "genre",
+			"value": "{{ selector:a[aria-label='Link to category page']|slice:0,3 }}",
+			"type": "multitext"
+		},
+		{
+			"name": "publisher",
+			"value": "{{schema:@Product:publisher.name}}",
+			"type": "text"
+		},
+		{
+			"name": "pages",
+			"value": "{{schema:@Book:numberOfPages}}",
+			"type": "number"
+		},
+		{
+			"name": "year",
+			"value": "{{schema:@Product:datePublished|split:\\\"-\\\"|first}}",
+			"type": "number"
+		},
+		{
+			"name": "cover",
+			"value": "{{meta:property:og:image}}",
+			"type": "text"
+		},
+		{
+			"name": "isbn",
+			"value": "{{meta:name:book:isbn}}",
+			"type": "text"
+		},
+		{
+			"name": "language",
+			"value": "{{language}}",
+			"type": "text"
+		},
+		{
+			"name": "created",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "tags",
+			"value": "books, to-read",
+			"type": "multitext"
+		},
+		{
+			"name": "rating",
+			"value": "",
+			"type": "number"
+		}
+	],
+	"triggers": [
+		"https://bookshop.org/p/books/"
+	],
+	"noteNameFormat": "{{meta:property:og:title}}",
+	"path": "References"
+}
